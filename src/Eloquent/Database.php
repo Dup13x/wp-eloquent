@@ -484,6 +484,6 @@ class Database implements ConnectionInterface
     
     public function getDatabaseName() 
     {
-        return $this->dbname;
+        return $this->db->dbname;
     }
 }
